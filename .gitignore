@@ -1,0 +1,33 @@
+# Environment files
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Docker
+.docker/
+
+# Kubernetes backup files
+*.yaml.bak
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# microservices-demo clone (don't commit the cloned repo)
+microservices-demo/
+
+# Temporary files
+*.tmp
+*.temp
